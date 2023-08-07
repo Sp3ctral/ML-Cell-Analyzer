@@ -1,0 +1,105 @@
+('C:\\Users\\Marvin '
+ 'Hozi\\Documents\\cell-analyzer-final\\prototype\\build\\cell-analyzer\\cell-analyzer.pkg',
+ {'BINARY': 1,
+  'DATA': 1,
+  'EXECUTABLE': 1,
+  'EXTENSION': 1,
+  'PYMODULE': 1,
+  'PYSOURCE': 1,
+  'PYZ': 0,
+  'SPLASH': 1},
+ [('PYZ-00.pyz',
+   'C:\\Users\\Marvin '
+   'Hozi\\Documents\\cell-analyzer-final\\prototype\\build\\cell-analyzer\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'C:\\Users\\Marvin '
+   'Hozi\\Documents\\cell-analyzer-final\\prototype\\build\\cell-analyzer\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'C:\\Users\\Marvin '
+   'Hozi\\Documents\\cell-analyzer-final\\prototype\\build\\cell-analyzer\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'C:\\Users\\Marvin '
+   'Hozi\\Documents\\cell-analyzer-final\\prototype\\build\\cell-analyzer\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'C:\\Users\\Marvin '
+   'Hozi\\Documents\\cell-analyzer-final\\prototype\\build\\cell-analyzer\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   'C:\\Users\\Marvin '
+   'Hozi\\Documents\\cell-analyzer-final\\prototype\\build\\cell-analyzer\\localpycs\\pyimod04_pywin32.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'C:\\Users\\Marvin '
+   'Hozi\\miniconda3\\envs\\cell_analyzer_env\\lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'C:\\Users\\Marvin '
+   'Hozi\\miniconda3\\envs\\cell_analyzer_env\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_subprocess',
+   'C:\\Users\\Marvin '
+   'Hozi\\miniconda3\\envs\\cell_analyzer_env\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_subprocess.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'C:\\Users\\Marvin '
+   'Hozi\\miniconda3\\envs\\cell_analyzer_env\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgres',
+   'C:\\Users\\Marvin '
+   'Hozi\\miniconda3\\envs\\cell_analyzer_env\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgres.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'C:\\Users\\Marvin '
+   'Hozi\\miniconda3\\envs\\cell_analyzer_env\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('pyi_rth_pyqt5',
+   'C:\\Users\\Marvin '
+   'Hozi\\miniconda3\\envs\\cell_analyzer_env\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pyqt5.py',
+   'PYSOURCE'),
+  ('pyi_rth_mplconfig',
+   'C:\\Users\\Marvin '
+   'Hozi\\miniconda3\\envs\\cell_analyzer_env\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_mplconfig.py',
+   'PYSOURCE'),
+  ('pyi_rth_setuptools',
+   'C:\\Users\\Marvin '
+   'Hozi\\miniconda3\\envs\\cell_analyzer_env\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_setuptools.py',
+   'PYSOURCE'),
+  ('pyi_rth__tkinter',
+   'C:\\Users\\Marvin '
+   'Hozi\\miniconda3\\envs\\cell_analyzer_env\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth__tkinter.py',
+   'PYSOURCE'),
+  ('cell-analyzer',
+   'C:\\Users\\Marvin '
+   'Hozi\\Documents\\cell-analyzer-final\\prototype\\cell-analyzer.py',
+   'PYSOURCE'),
+  ('TrackerClasses',
+   'C:\\Users\\Marvin '
+   'Hozi\\Documents\\cell-analyzer-final\\tracker_library\\TrackerClasses.py',
+   'PYSOURCE'),
+  ('cell_analysis_functions',
+   'C:\\Users\\Marvin '
+   'Hozi\\Documents\\cell-analyzer-final\\tracker_library\\cell_analysis_functions.py',
+   'PYSOURCE'),
+  ('centroid_tracker',
+   'C:\\Users\\Marvin '
+   'Hozi\\Documents\\cell-analyzer-final\\tracker_library\\centroid_tracker.py',
+   'PYSOURCE'),
+  ('export_data',
+   'C:\\Users\\Marvin '
+   'Hozi\\Documents\\cell-analyzer-final\\tracker_library\\export_data.py',
+   'PYSOURCE'),
+  ('matplotlib_graphing',
+   'C:\\Users\\Marvin '
+   'Hozi\\Documents\\cell-analyzer-final\\tracker_library\\matplotlib_graphing.py',
+   'PYSOURCE')],
+ True,
+ False,
+ False,
+ [],
+ None,
+ None,
+ None)

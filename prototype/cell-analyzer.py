@@ -3,6 +3,8 @@
 Main Entry point of the cell-analyzer software which allows a user to track and visualize statistics about an individual cell, or an entire culture throughout
 video or image using a graphical interface
 @author zheath19@georgefox.edu
+@author mhozi18@georgefox.edu
+@author lmcafee19@georgefox.edu
 '''
 import sys
 import threading

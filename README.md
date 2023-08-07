@@ -1,6 +1,6 @@
 <p align="left">
 <a href="https://github.com/Zeathary/cell-analyzer">
-    <img src="https://readme-typing-svg.demolab.com?font=Georgia&size=24&duration=900&pause=50&multiline=true&repeat=false&width=650&height=175&lines=Cell+Analyzer;Zachary+Heath%2C+Lilly+McAfee%2C+Young+Bok+(Abraham)+Kang+PhD;George+Fox+College+of+Engineering;System+to+record+and+predict+cell+motion+responding;to+biological+and+mechanical+stimulation." alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com/?font=Georgia&size=24&duration=500&pause=50&multiline=true&repeat=false&width=650&height=250&lines=[ML+Cell+Analyzer];Zachary+Heath;Marvin+Hozi;Lilly+McAfee;Young+Bok+(Abraham)+Kang+PhD;George+Fox+University+Engineering;Software+to+record+and+predict+cell+motion+responding;to+biological+and+mechanical+stimulation." alt="Typing SVG" />
 </a>
 </p>
 
@@ -41,16 +41,6 @@ If you are using the [Windows Subsystem for Linux](https://docs.microsoft.com/en
 
 3.  Verify that your install works as expected using the testing steps described in the [Miniconda installation instructions](https://conda.io/projects/conda/en/latest/user-guide/install/windows.html)
 
-### Linux
-
-Some distributions package Miniconda; try searching for `conda` or `miniconda` with your system package manager (e.g., `apt`, `dnf`).
-For example, on recent versions of Fedora, you can run `dnf install conda` to install Conda.
-Note that these packaged versions may be somewhat out of date, however, that is usually not an issue in day-to-day use unless you are reliant on bleeding-edge features of the `conda` executable itself.
-
-If not available in your system package manager out of the box, you can also add [repositories for RPM- and Debian-based distributions](https://docs.conda.io/projects/conda/en/latest/user-guide/install/rpm-debian.html), and then install Conda using your system package manager.
-
-In all other cases, follow the [Linux installation instructions](https://conda.io/projects/conda/en/latest/user-guide/install/linux.html) on the Conda website.
-
 ## Environment Setup
 
 Once you have Conda installed, you will need to set up a Conda environment that contains Python itself and all of the supporting packages we'll be using in the project.
@@ -85,4 +75,25 @@ To create your Conda environment, complete the following steps:
 
 If all works as expected, the script will run correctly. If any of the packages report an error, verify that you have first activated the correct Conda environment.
 
-Note: An executable can be made on Windows machines by running prototype/create_cell_analyzer_exe.ps1 within powershell with PyInstaller installed
+### Building an Executable
+
+In order to make this step very easy, a script has been made to execute commands on your behalf that will initiate the build process with PyInstaller. 
+Here are the steps to take if you want to build the project into an executable. You need to have all the modules imported and working for this to go without
+any trouble! YOu have been warned!
+
+1. Make sure you are in the same directory as the script. Use the ```cd ./prototype/``` command to get into the 
+   prototype folder, assuming you are one level above. If you are not, get to the prototype folder using the ```cd``` command.
+2. Ensure that you use your IDE terminal (Must be Powershell on Windows) to run the following command: ```powershell -executionpolicy unrestricted .\build-exec.ps1```.
+   You will get a security warning asking you to type the letter R if you want to run the script. Do it. It's safe...
+
+This will execute the script with administrator privileges so it can complete successfully. 
+
+3. Give the script some time to run. It will take time and that is proportional to how fast your computer is. Be patient.
+4. After the script is done running, it will generate a directory called "dist" and it will bein the "prototype" folder. Go into
+   "dist" and you will find the "cell-analyzer" directory where the executable is: "cell-analyzer.exe". 
+5. Congrats, you may now copy/move the "cell-analyzer" folder anywhere you want. It will run on any x64-86 Windows computer!
+
+OPTIONAL: You may delete the folder named "build" it's completely useless and was used build the executable. It's useless now.
+You may also delete any file with the suffix ".spec" since those files are also useless now.
+
+Contact mhozi18@our fox email, I will be happy to help you with the build section of this project if you need it!
