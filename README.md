@@ -1,5 +1,5 @@
 <p align="left">
-<a href="https://github.com/Zeathary/cell-analyzer">
+<a href="https://github.com/sp3ctral/cell-analyzer">
     <img src="https://readme-typing-svg.demolab.com/?font=Georgia&size=24&duration=500&pause=50&multiline=true&repeat=false&width=650&height=250&lines=[ML+Cell+Analyzer];Zachary+Heath;Marvin+Hozi;Lilly+McAfee;Young+Bok+(Abraham)+Kang+PhD;George+Fox+University+Engineering;Software+to+record+and+predict+cell+motion+responding;to+biological+and+mechanical+stimulation." alt="Typing SVG" />
 </a>
 </p>
@@ -56,7 +56,7 @@ To create your Conda environment, complete the following steps:
 
 3. Clone this repository to your local machine:
 
-    ```git clone https://github.com/Zeathary/cell-analyzer.git```
+    ```git clone https://github.com/sp3ctral/cell-analyzer.git```
 
 4. Change directory to the newly-cloned `cell-analyzer` directory
 
